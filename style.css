@@ -26,6 +26,7 @@
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
     margin-top: 20px;
+    line-height: 24px;
    
     
 }
@@ -68,6 +69,8 @@
     line-height: 26px;
     font-family: 'Lobster', cursive;
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: 13px 0;
 
 }
 li{
@@ -118,18 +121,152 @@ i{
     margin-top: 10px;
     color: rgb(143, 141, 141);
 }
-.part-2{
-    margin-top: 150px;
- 
-    margin: 0% auto;
-  background-image: url(./images/watch.png);
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+.section2{
     width: 1154px;
+    margin: 0% auto;
+    margin-top: 50px;
+    border-radius: 15px;
     height: 300px;
-
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(./images/watch.png);
+    background-repeat: no-repeat;
 }
-.part-img{
+.content{
+    padding: 55px;
+}
+.content-text{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.content-btn{
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+
+
+/* section3 */
+.section3{
+    margin: 100px 0px;
+    text-align: center;
+    margin-left: 100px;
+}
+.section3-title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 30px 0px;
+}
+.blog{
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.blog-content{
+    display: flex;
+    gap: 10px;
+   align-items: center;
+}
+.blog-img{
+    width: 250px;
+    height: 200px;
+}
+.blog-heading{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+/* 
+foter sectionnnnn */
+.footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 100px;
   
-    z-index: 100;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1154px;
+    margin: 0% auto;
+  
+}
+.footer-content{
+    color: white;
+    margin: 150px 50px 150px 0px;
+   
+}
+.footer-title{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+   
 
 }
+.footer-description{
+    margin: 15px 0px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(224, 213, 213);
+  
+}
+.email,.phone{
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(224, 213, 213);
+  
+
+}
+.footer-icon{
+    margin: 15px 13px 0px 0px;
+}
+.footer-content2{
+    color: white;
+    margin-top: 150px;
+}
+input{
+    background-color: black;
+    border-radius:10px ;
+    color: rgb(224, 213, 213);
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 14px 10px;
+    
+}
+.footer-btn{
+    padding: 13px 30px;
+   
+    margin-top: 35px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    
+
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
